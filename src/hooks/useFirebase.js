@@ -20,7 +20,9 @@ const useFirebase=()=>{
   
   }
   
-  
+  const reload=()=>{
+    window.location.reload()
+  }
 
 
   const logOut=()=>{
@@ -30,35 +32,38 @@ const useFirebase=()=>{
      setUser({})
     })
     .finally(()=> setIsLoading(false));
-    // .catch((err) => {
-    //   setError(err.message);
-      
-    // });
+    
   }
 
-  
+  //handle name
   const handleNameChange=event=>{
     setName(event.target.value)
   }
 
+//handle email
   const handleEmailChange=event=>{
    setEmail(event.target.value);
   }
 
+//handle password
   const handlePasswordChange=event=>{
     setPassword(event.target.value);
   }
+
+  //set name
 
   const setUserName= ()=>{
     updateProfile(auth.currentUser, {
       displayName: name})
     .then(() => { 
+
     }).catch((error) => {
       
     });
   }
 
 
+//handle registration
 
   const handleRegister=event=>{
     event.preventDefault();
@@ -71,6 +76,7 @@ const useFirebase=()=>{
    
     const user = result.user;
     console.log(user);
+    reload();
     setError('')
     setUserName();
   })
@@ -112,6 +118,7 @@ const useFirebase=()=>{
 
 
 return {
+  name,
   isLoading,
   setIsLoading,
   handleNameChange,
