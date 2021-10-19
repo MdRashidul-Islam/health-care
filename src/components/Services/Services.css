@@ -1,0 +1,7 @@
+.services{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.secvices-contianer{
+ margin-bottom: 100px;
+}

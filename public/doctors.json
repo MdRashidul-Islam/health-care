@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. LEONARD GIRARDI",
+    "spe": "Allergists/Immunologists",
+    "description": "They treat immune system disorders such as asthma, eczema, food allergies, insect sting allergies, and some autoimmune diseases.",
+    "img": "https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. JOHN M BROWN",
+    "spe": "Anesthesiologists",
+    "description": "These doctors give you drugs to numb your pain or to put you under during surgery, childbirth, or other procedures. They monitor your vital signs while you’re under anesthesia.",
+    "img": "https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "Dr. DAVID ADAMS",
+    "spe": "Cardiologists",
+    "description": "They’re experts on the heart and blood vessels. You might see them for heart failure, a heart attack, high blood pressure, or an irregular heartbeat.",
+    "img": "https://dermamedical.net.au/wp-content/uploads/2016/05/Dermal-Filler-Anti-Wrinkle-Injection-Training-for-Doctors-790x1024.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. ALFREDO TRENTO",
+    "spe": "Colon and Rectal Surgeons",
+    "description": "You would see these doctors for problems with your small intestine, colon, and bottom. They can treat colon cancer, hemorrhoids, and inflammatory bowel disease..",
+    "img": "https://image.freepik.com/free-photo/doctor-smiling-with-stethoscope_1154-36.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dr. FREDERICK J DENSTMAN",
+    "spe": "Critical Care Medicine Specialists",
+    "description": "They care for people who are critically ill or injured, often heading intensive care units in hospitals. You might see them if your heart or other organs are failing or if you’ve been in an accident. ",
+    "img": "https://thumbs.dreamstime.com/z/smiling-doctor-16435583.jpg"
+  },
+  {
+    "id": 6,
+    "name": "DR. STEVEN N CARTER",
+    "spe": "Dermatologists",
+    "description": "Have problems with your skin, hair, nails? Do you have moles, scars, acne, or skin allergies? Dermatologists can help.",
+    "img": "https://us.123rf.com/450wm/milkos/milkos1910/milkos191003173/131495755-family-medical-doctor-positive-woman-physician-smiling-looking-at-camera-sitting-in-her-office-.jpg?ver=6"
+  }
+]

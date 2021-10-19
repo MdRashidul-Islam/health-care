@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "BLOOD BANK",
+    "description": "The Blood Bank of United Hospital Limited is a Government licensed blood bank established in 2006.  Located in the ground floor of this hospital, it aims to provide patients with the safest possible blood, equivalent to any international standard. All donations received in the blood bank are voluntary non-remunerated. All necessary safety measures are taken for both the donors and the recipients including performing the mandatory screening tests for infectious diseases. This blood bank is enriched with one Consultant, one Specialist, four Senior House Officers, and thirteen Medical Lab Technologists.",
+    "img": "https://blog.amopportunities.org/wp-content/uploads/2020/01/Blood-Donor-Awareness-Month-scaled-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "CHEMOTHERAPY",
+    "description": "Chemotherapy UnitOur exclusive Chemotherapy Unit provides the most updated cancer management as per international guidelines.What is chemotherapy?Chemotherapy (also called chemo) is a type of cancer treatment that uses drugs to destroy cancer cells.How does chemotherapy work?Chemotherapy works by stopping or slowing the growth of cancer cells, which grow and divide quickly. But it can also harm healthy cells that divide quickly, such as those that line your mouth and intestines or cause your hair to grow. Damage to healthy cells may cause side effects. Often, side effects get better or go away after chemotherapy is over.",
+    "img": "https://www.healguru.in/images/products/img-chemotherapy.jpg"
+  },
+  {
+    "id": 3,
+    "name": "COVID HOME CARE PACKAGE",
+    "description": "This COVID Rehab Programme is designed as a Pulmonary Rehab Programme for post COVID patients, which would be beneficial for COPD or Heart Failure patients as well. This will be a 2 weeks programme where we’ll have Consultations from Respiratory Medicine Consultant, Nutritionist & PM&R Specialist; Rehab Sessions and investigations like Spirometry, CXR P/A, ECG & CBC. A composite questionnaire and evaluation document is designed to be used as an assessment tool for these patients having pulmonary pathology who needs rehab service as in post COVID cases.",
+    "img": "https://www.uhlbd.com/administrator/uploads/images/COVID%20Home%20Care%20Package_Front%20Photo%20%281%29.jpg"
+  },
+  {
+    "id": 4,
+    "name": "VACCINATION",
+    "description": "The Vaccination Center of United Hospital is providing its keen continues services. This department serves the indoor neonates, children & Adult by providing life saving vaccines. This department plays a vital role to improve the health status of community. This department maintains the excellent cold Chain for Vaccine Storage.",
+    "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202104/covid_19_vaccine_1200x768.jpeg?UfaWSHS6T6qvj6cewsOIqlTGvuaOKNRH&size=1200:675"
+  },
+  {
+    "id": 5,
+    "name": "DIABETES CENTER",
+    "description": "The United Diabetes Center use a team approach for education, counseling and device training, with you as the key member of the team. Registered physician, dietitians, diabetes educators and nurses are dedicated to helping each person gain control of their diabetes while maintaining an optimal state of health and well-being. Together, the team designs an individualized plan that matches your lifestyle and educational needs.",
+    "img": "https://i.dietdoctor.com/wp-content/uploads/2018/10/Andrew-Success-Story-blood-glucose.jpg?auto=compress%2Cformat&w=800&h=533&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "STROKE CENTRE",
+    "description": "STROKE is a serious, life-threatening medical condition that occurs when the blood supply to part of the brain is cut off.Minutes can make a difference between life and death, the difference between brain cells that are saved and brain cells that are damaged forever, between recovery and lifelong disability.The more time passes before a stroke patient receives treatment, the worst the outcome. So if the stroke is treated immediately, brain damage will be minimized.",
+    "img": "https://img.freepik.com/free-vector/scientific-medical-human-brain-stroke-illustration_115990-340.jpg?size=626&ext=jpg"
+  }
+]

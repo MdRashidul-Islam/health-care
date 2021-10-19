@@ -1,0 +1,26 @@
+.nav-item a{
+  text-decoration: none;
+  color: black;
+  padding-left: 16px;
+}
+.logout{
+  border: none;
+  background: none;
+  padding: 5px;
+  margin-left: 5px;
+  position: relative;
+  top: -7px;
+ border: none; 
+ color: blueviolet;
+ font-weight: bold;
+}
+
+.loged{
+  margin-left: 20px;
+  color: #7011F5;
+  
+}
+.login-btn{
+  color: #7011F5;
+  font-weight: bold;
+}
