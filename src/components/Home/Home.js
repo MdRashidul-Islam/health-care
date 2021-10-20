@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [services]= AllService();
+  const Services= services?.slice(0, 6) 
   
   return (
     <div className="">
@@ -57,11 +58,11 @@ const Home = () => {
 <h3 className="service-title">Our Services</h3>
 <div className="header-service container">
  {
-   services?.map(service=><Ser service={service} key={service.id}></Ser>)
+   Services?.map(service=><Ser service={service} key={service.id}></Ser>)
  }
 
 </div>
-<Link className="link" to="/services"><button className="ser-btn">See More Details</button></Link>
+<Link className="link" to="/services"><button className="ser-btn">See More With Details</button></Link>
 
     </div>
   );

@@ -8,31 +8,13 @@
 }
 
 .department{
-  height: 550px;
+  height: 600px;
 }
 
 .dep-img{
   height: 300px;
 }
-.dep-btn{
-  display: block;
-  margin: 0 auto;
-  border: none;
-  background: white;
-  border: 2px solid #0FB4D4;
-  padding: 10px 15px;
-  border-radius: 3px;
-  font-weight: bold;
-  transition: 0.3s;
-}
 
-
-
-.dep-btn:hover{
-background: #0FB4D4;
-border: none;
-color: white;
-}
 @media only screen and (max-width:688px) {
   .departments{
     display: grid;

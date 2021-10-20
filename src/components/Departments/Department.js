@@ -10,7 +10,7 @@ const Department = (props) => {
 
   return (
     <div >
-      <CardGroup className="department">
+      <CardGroup className="department animation">
   <Card>
     <Card.Img className="dep-img" variant="top" src={img} />
     <Card.Body className="dep-info">
@@ -20,7 +20,7 @@ const Department = (props) => {
       </Card.Text>
     </Card.Body>
     <Card.Footer className="border-0 bg-white">
-     <button className="dep-btn">Make Appointment</button>
+     <button className=" ser-btn">Read More</button>
     </Card.Footer>
   </Card>
 </CardGroup>

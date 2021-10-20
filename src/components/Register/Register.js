@@ -6,7 +6,7 @@ import img from '../../images/healthcare-logo-png.png'
 
 
 const Register = () => {
-  const {handleEmailChange, handlePasswordChange, handleRegister,handleNameChange, error,handleGoogle} = useAuth();
+  const {handleEmailChange, handlePasswordChange, handleRegister,handleNameChange, error} = useAuth();
  
   return (
     

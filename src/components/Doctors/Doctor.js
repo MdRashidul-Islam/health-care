@@ -15,7 +15,9 @@ const Doctor = (props) => {
        {description}
       </Card.Text>
     </Card.Body>
-    
+    <Card.Footer className="border-0 bg-white">
+     <button className=" ser-btn">Make Appointment</button>
+    </Card.Footer>
   </Card> 
 </CardGroup>
     </div>

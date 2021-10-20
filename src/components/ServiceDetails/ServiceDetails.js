@@ -28,7 +28,7 @@ const ServiceDetails = () => {
     <div className="details">
       <div><img className="details-img img-fluid" src={singleServiceDetails?.img} alt="" /></div>
       <div className="details-info">
-      <h2 className="mt-5">{singleServiceDetails?.name}</h2>
+      <h2 className="mt-5 about-title">{singleServiceDetails?.name}</h2>
        <p>{singleServiceDetails?.description}</p>
       </div>
        
