@@ -11,47 +11,51 @@ const useFirebase=()=>{
   const [user, setUser]= useState({})
   const [name, setName] = useState('');
   const [isLoading, setIsLoading]=useState(true);
-  const auth = getAuth();
   const googleProvider = new GoogleAuthProvider();
+  const auth = getAuth();
 
+  //sign in with google
   const signWithGoogle=()=>{
     setIsLoading(true);
    return signInWithPopup(auth, googleProvider)
   
   }
   
+//sign out
+const logOut=()=>{
+  setIsLoading(true)
+  signOut(auth)
+  .then(() => {
+   setUser({})
+  })
+  .finally(()=> setIsLoading(false));
+  
+}
+
+
+  //reload
   const reload=()=>{
     window.location.reload()
   }
 
 
-  const logOut=()=>{
-    setIsLoading(true)
-    signOut(auth)
-    .then(() => {
-     setUser({})
-    })
-    .finally(()=> setIsLoading(false));
-    
-  }
 
-  //handle name
+  //handle name change
   const handleNameChange=event=>{
     setName(event.target.value)
   }
 
-//handle email
+//handle email email change
   const handleEmailChange=event=>{
    setEmail(event.target.value);
   }
 
-//handle password
+//handle password change
   const handlePasswordChange=event=>{
     setPassword(event.target.value);
   }
 
   //set name
-
   const setUserName= ()=>{
     updateProfile(auth.currentUser, {
       displayName: name})
@@ -73,12 +77,13 @@ const useFirebase=()=>{
     }
     createUserWithEmailAndPassword(auth, email, password)
   .then(result => {
-   
+    reload();
     const user = result.user;
     console.log(user);
     reload();
     setError('')
     setUserName();
+    
   })
   .catch((error) => {
     const errorCode = error.code;
@@ -89,22 +94,40 @@ const useFirebase=()=>{
   }
 
 
+  //login with email password
 
-
-
-
-  const handleEmailLog=()=>{
-    signInWithEmailAndPassword(auth, email, password)
-  .then((result) => {
-    const user = result.user;
-    console.log(user);
-   setUser(user);
+  // const handleEmailLog=()=>{
+  //   signInWithEmailAndPassword(auth, email, password)
+  // .then((result) => {
+  //   const user = result.user;
+  //   console.log(user);
+  //  setUser(user);
      
-  })
-  .catch((err) => setError(err.message));
+  // })
+  // .catch((err) => setError(err.message));
+  // }
+
+  const handleEmailLogin=(event)=>{
+    event.preventDefault();
+    signInWithEmailAndPassword(auth, email, password)
+    .then( result => {
+      const user = result.user;
+      setUser(user);
+      console.log(user);
+     
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      setError(errorCode);
+    });
   }
 
 
+
+
+
+
+//on auth state change
   useEffect(()=>{
     onAuthStateChanged(auth, (user) => {
       if (user) {
@@ -118,16 +141,18 @@ const useFirebase=()=>{
 
 
 return {
+  setName,
+  user,
+  setUser,
+  handleEmailLogin,
   name,
   isLoading,
   setIsLoading,
   handleNameChange,
-  handleEmailLog,
   error,
   handleRegister,
   handleEmailChange,
   handlePasswordChange,
-  user,
   signWithGoogle,
 logOut
 }

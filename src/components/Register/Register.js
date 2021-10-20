@@ -1,14 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import img from '../../images/healthcare-logo-png.png'
 
 
 
 const Register = () => {
-  const {handleEmailChange, handlePasswordChange, handleRegister,handleNameChange, error} = useAuth();
+  const {handleEmailChange, handlePasswordChange, handleRegister,handleNameChange, error,handleGoogle} = useAuth();
+ 
   return (
+    
     <div className="login-form">
     <div className="login">
+    <img className="login-logo" src={img} alt="" />
       <h3 className="text-white">Register</h3>
       <form onSubmit={handleRegister}>
         <label className="d-block  text-white" htmlFor="email">Name</label>

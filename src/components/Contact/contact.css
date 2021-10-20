@@ -1,0 +1,53 @@
+.contact{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.contact-info{
+  width: 50%;
+  padding: 20px;
+  
+}
+
+.contact-logo{
+  width: 50%;
+}
+
+.contact-logo img{
+  width: 650px;
+  height: 500px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.button-contact{
+ background-color: #00B093;
+ border: none;
+ padding: 10px 20px;
+ font-weight: bold;
+ color: white;
+ border-radius: 3px;
+}
+
+@media only screen and (max-width:688px) {
+  .contact{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-logo img{
+    width: 375px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    
+  }
+
+
+  .contact-info{
+    width: 100%;
+  }
+
+}

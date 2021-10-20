@@ -18,6 +18,11 @@
   text-align: justify;
 }
 
+.about-title{
+  color: #00b093;
+  font-weight: bold;
+}
+
 @media only screen and (max-width:688px) {
   .about-container{
     display: grid;

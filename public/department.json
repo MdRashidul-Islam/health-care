@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Urology",
+    "description": "Urology is a part of health care that deals with diseases of the male and female urinary tract (kidneys, ureters, bladder and urethra). It also deals with the male organs that are able to make babies (penis, testes, scrotum, prostate, etc.).",
+    "img": "https://www.lyfboat.com/wp-content/uploads/2019/04/UrologyBanner-1024x390.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Cardiology",
+    "description": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine. ... A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system.",
+    "img": "https://www.journalajcr.com/public/journals/56/homepageImage_en_US.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Plastic and Reconstructive Surgery",
+    "description": "It works with the purpose of alteration or restoring the form of the body. Cosmetic or Aesthetic Surgery is the most well-known kind of Plastic Surgery which includes many types of reconstructive surgery,",
+    "img": "https://www.shatayuhospitals.com/wp-content/uploads/2021/07/Plastic-Surgery.jpg"
+  },
+  {
+    "id": 4,
+    "name": "ICU",
+    "description": "Intensive care units (ICUs) are specialist hospital wards that provide treatment and monitoring for people who are very ill. They're staffed with specially trained healthcare professionals and contain sophisticated monitoring equipment.",
+    "img": "https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5fb437a84b9ccc6fa872a25e%2FVentilator-monitor--given-oxygen-by-intubation-tube-to-patient--setting-in%2F960x0.jpg%3FcropX1%3D0%26cropX2%3D6000%26cropY1%3D304%26cropY2%3D3679"
+  },
+  {
+    "id": 5,
+    "name": "Neurosurgery",
+    "description": "Neurosurgery or neurological surgery, known in common parlance as brain surgery, is the medical specialty concerned with the prevention, diagnosis, surgical treatment",
+    "img": "https://www.google.com/search?q=neurosurgery&sxsrf=AOaemvKPQhTh4pvvp9rZHCh3lyfORC6nZQ:1634719756151&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiNjv3SzdjzAhUFzzgGHWDHAoUQ_AUoAXoECAEQAw&biw=1366&bih=617&dpr=1#imgrc=KM7-uTluQtOsyM&imgdii=gVr0N6J_sjNkIM"
+  },
+  {
+    "id": 6,
+    "name": "Emergency",
+    "description": "An emergency is a situation that poses an immediate risk to health, life, property, or environment.[1] Most emergencies require urgent intervention to prevent a worsening of the situation, although in some situations, mitigation may not be possible and agencies may only be able to offer palliative care for the aftermath.",
+    "img": "https://njtheatrealliance.org/sites/default/files/styles/banner_slide/public/images/emergency-sign-960x444.png?itok=F5X7dXNg&c=6a0e64dfbc4ea2e5eda9a3fe38acefee"
+  }
+]

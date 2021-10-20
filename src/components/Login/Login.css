@@ -4,11 +4,22 @@
   align-items: center;
   width: 100%;
   min-height: 70vh;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .login{
  background: #5d7074;
  padding: 50px 40px;
+ border-radius: 3px;
+}
+
+.login-logo{
+margin-top: -20px;
+ height: 40px;
  border-radius: 10px;
+ display: block;
+ margin: 0 auto;
+ width: 150px;
 }
 
 .text-field{
@@ -26,7 +37,7 @@
 }
 
 .log-btn{
-  border: 2px solid #0FB4D4;
+  border: 2px solid #00B093;
   background: none;
   font-weight: bold;
   font-size: 18px;
@@ -34,28 +45,21 @@
   margin-top: 5px;
   padding: 6px 15px;
   transition: 0.3s;
-}
-.log-btn:hover{
-  background: #0FB4D4;
   color: white;
 }
-
-.input{
-  padding: 10px 0px;
+.log-btn:hover{
+  background: #00B093;
+  color: black;
 }
 
 
 
 
 
-/* @media only screen and (max-width:480px) {
+
+@media only screen and (max-width:688px) {
   .login-form{
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+    margin-top: 40px;
+    margin-bottom: 0px;
   }
-  .log-btn{
-    background: #0FB4D4;
-    color: white;
-  }
-} */
+}
